@@ -229,18 +229,6 @@ i {
   color: #f7462f;
 }
 
-/* .tamgiac{
-      position: absolute;
-      opacity: 0;
-      transform: translateY(-10px);
-      pointer-events: none;
-      transition: opacity 150ms ease-in-out,transform   150ms ease-in-out;
-  }
-  .dropdown:hover .tamgiac{
-      opacity: 1;
-      transform: translateY(0);
-      pointer-events: auto;
-  } */
 .box1 {
   width: 100%;
   background-color: #fff;
@@ -423,15 +411,6 @@ figcaption {
 sup {
   text-decoration: underline;
 }
-
-.price {
-  color: red;
-  font-size: 20px;
-  width: 70%;
-  text-align: center;
-  padding: 10px 0;
-}
-
 .sell {
   width: 75%;
   text-align: center;
@@ -507,6 +486,27 @@ sup {
   color: #767676;
   text-transform: capitalize;
 }
+.coin {
+  padding: 15px 20px;
+  background: #fafafa;
+}
+.coin-font {
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: #ee4d2d;
+}
+.cen {
+  align-items: center;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+}
+.f-rate {
+  font-size: -1rem;
+  color: #222;
+  margin-right: 5px;
+  padding-bottom: 1px;
+}
 .banner3 {
   padding: 20px;
 }
@@ -526,14 +526,6 @@ sup {
 
 .top_search img {
   width: 35%;
-}
-
-.price {
-  color: red;
-  font-size: 20px;
-  width: 70%;
-  text-align: center;
-  padding: 10px 0;
 }
 
 .caption {
@@ -619,7 +611,7 @@ sup {
   z-index: 1;
 }
 
-.balo .price {
+.balo {
   font-size: 1rem;
   color: #ee4d2d;
 }
@@ -706,7 +698,7 @@ sup {
 .shop-footer {
   margin-top: 60px;
   width: 100%;
-  border-top: 5px solid #ec2315;
+  border-top: 5px solid #1a97eb;
 }
 
 .heading {
@@ -849,14 +841,6 @@ footer {
   height: 70px;
 }
 
-.end-game {
-  padding-bottom: 40px;
-}
-
-.end-game p {
-  padding: 5px 0;
-}
-
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   body {
     width: 100%;
@@ -970,7 +954,6 @@ footer {
 
   .heading,
   .name,
-  .price,
   .sell,
   .sells,
   .title {
@@ -1036,7 +1019,7 @@ footer {
   }
 
   .world,
-  .fl .price {
+  .fl {
     font-size: 0.6rem;
   }
 
@@ -1284,7 +1267,6 @@ footer {
   .fa-brands,
   .heading,
   .name,
-  .price,
   .sell,
   .sells,
   .title {
@@ -1364,7 +1346,7 @@ footer {
   }
 
   .world,
-  .fl .price {
+  .fl {
     font-size: 0.4rem;
   }
 
@@ -1575,4 +1557,94 @@ footer {
   margin-top: 1.25rem;
   height: 1rem;
   margin-bottom: 10px;
+}
+.coin-font-giam {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #929292;
+  margin-right: 10px;
+  padding-top: 9px;
+}
+.banner4 {
+  width: 450px;
+  padding: 15px;
+  flex-shrink: 0;
+}
+.font_b {
+  color: #757575;
+  width: 110px;
+  text-transform: capitalize;
+  flex-shrink: 0;
+  align-items: center;
+  margin: 8px;
+}
+
+.center-item {
+  align-items: center;
+}
+
+.button-box {
+  cursor: pointer;
+  padding: 10px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  background-color: #54c9f4;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.button-box:hover {
+  background-color: rgb(226, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.btn_center {
+  display: flex;
+  justify-content: center;
+}
+/* gh */
+.cart {
+  margin: 20px 0;
+  flex-wrap: wrap;
+  flex: 12;
+  display: flex;
+}
+
+.cart_l {
+  padding: 10px;
+  background-color: rgb(191, 237, 254);
+  flex: 9;
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 5px;
+}
+.cart_r {
+  padding: 10px;
+  background-color: rgb(191, 237, 254);
+  flex: 3;
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 5px;
+}
+.table table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.table td {
+  border-top: 2px solid rgb(167, 112, 112);
+  text-align: center;
+}
+.line {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.box-img {
+  padding: 4px;
+  width: 150px;
+  height: 150px;
+}
+.font-cart {
+  font-size: 20px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

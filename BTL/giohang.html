@@ -12,14 +12,7 @@
 </head>
 
 <body>
-  <!-- <div class="demo" id="end">
-        <p id="countdown">
-            10
-        </p>
-        <div class="cancel">
-            <label onclick="cancel()">X</label>
-        </div>
-    </div> -->
+
   <button class="to-top" id="myBtn"><i class="fa-solid fa-arrow-up"></i>
   </button>
   <header class="sticky">
@@ -80,15 +73,12 @@
         <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
       </form>
       <nav class="shopping">
-       
-        <div class="dropdown" > <a href="giohang.html">
-          <i class="fa-solid fa-cart-shopping">
-          
-          </i></a>
-          <div class="hidden tamgiac three" >
-            <img src="img/lg.jpg" alt="" >
-            <p>Có 3 sản phẩm trong giỏ hàng </p>
-          </div>
+        <div class="dropdown">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <!-- <div class="hidden tamgiac three">
+            <img src="img/lg.jpg" alt="">
+            <p>Chưa có sản phẩm</p>
+          </div> -->
         </div>
       </nav>
     </section>
@@ -108,223 +98,155 @@
       <ul>
         <b><a href="index.html">Trang chủ</a> </b>
         <i class='fas fa-angle-right' style="color: #000 ;"></i>
-        <b><a href="">Phụ kiện</a> </b>
+        <b><a href="">Giỏ Hàng</a> </b>
         <i class='fas fa-angle-right' style="color: #000 ;"></i>
         <b></b>
       </ul>
     </div>
-    <section class="slide_show mgr with">
-      <nav class="banner4 mgr ">
-        <div class=" flex flex-column">
-          <img src="img/anh ao ho.jpg" alt="" width="">
-        </div>
-      </nav>
-      <nav class="flex flex-1">
-        <div class="flex-column fC-1"><span style="font-size: xx-large;">Áo khoác bomer nam nữ unisex</span>
-          <div class="flex" style="margin: 31px;">
-            <div class="rate">
-              <div class="cen">Chưa có đánh giá</div>
-            </div>
-            <div class="flex rate">
-              <div class="f-rate"> 233</div>
-              <div class="cen">ĐÃ BÁN</div>
-            </div>
-          </div>
-          <div class=" flex flex-column coin ">
-            <div class=" flex " style="text-align:center;">
-              <div class=" coin-font-giam"> ₫75.000</div>
-              <div class="coin-font ">
-                ₫65.000
+    <section class="slide_show mgr with ">
+      <nav class="  cart ">
+        <div class=" cart_l ">
+          <figcaption style="font-size: 2.6rem; "> <b>Giỏ Hàng</b></figcaption>
+          <div class="table">
+            <table>
+              <tr>
+                <th colspan="5">Sản Phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá tiền/chiếc</th>
+                <th>Kích thước</th>
+                <th>Xóa</th>
+                <th>Tổng tiền</th>
+              </tr>
+              <tr>
+                <td colspan="3">
+
+                  <a class="" href="sanpham.html">
+                    <img src="img/anh ao ho.jpg" alt="" class="box-img">
+                  </a>
+                </td>
+                <td>
+                  <a style="text-decoration: none;" href="sanpham.html">
+
+                    Áo khoác bomer nam nữ unisex
+                  </a>
+                </td>
+                <td colspan="2">1</td>
+                <td>65.000VND</td>
+                <td>L Nữ</td>
+                <td>
+                  <input type="checkbox" name="" id="">
+                </td>
+                <td>
+                  65.000VND
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <a href="sanpham.html">
+                    <img src="img/anh ao ho.jpg" alt="" class="box-img">
+                  </a>
+                </td>
+                <td>
+                  <a style="text-decoration: none;" href="sanpham.html">
+
+                    Áo khoác bomer nam nữ unisex
+                  </a>
+                </td>
+                <td colspan="2">1</td>
+                <td>65.000VND</td>
+                <td>L Nữ</td>
+                <td>
+                  <input type="checkbox" name="" id="">
+                </td>
+                <td>
+                  65.000VND
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <a href="sanpham.html">
+                    <img src="img/anh ao ho.jpg" alt="" class="box-img">
+                  </a>
+                </td>
+                <td>
+                  <a style="text-decoration: none;" href="sanpham.html">
+
+                    Áo khoác bomer nam nữ unisex
+                  </a>
+                </td>
+                <td colspan="2">1</td>
+                <td>65.000VND</td>
+                <td>L Nữ</td>
+                <td>
+                  <input type="checkbox" name="" id="">
+                </td>
+                <td>
+                  65.000VND
+                </td>
+              </tr>
+              <tr>
+                <th colspan="3">Tổng toàn bộ</th>
+                <th colspan="4"></th>
+                <th colspan="3"> 195.000VND</th>
+              </tr>
+            </table>
+            <div class="flex" style="justify-content: space-between;">
+              <div class="">
+                <a href="index.html">
+                  <button class="button-box">
+                    <i class="fa fa-angle-left"></i>
+
+                    <span> Tiếp tục mua hàng</span>
+                  </button>
+                </a>
               </div>
+              <div>
+                <div class="">
+                  <a href="giohang.html">
+                    <button class="button-box">
+                      <i class="fa fa-refresh"></i>
+                      <span>
+                        Cập nhật giỏ hành
+                      </span>
+                    </button>
+                  </a>
+                </div>
 
-
-              <label>GiẢM</label>
-              <p>15%</p>
-
+              </div>
             </div>
-
-          </div>
-          <div class=" flex flex-column">
-            <div class=" flex ">
-              <div class="font_b "> Vận chuyển</div>
-              <div style='margin-top: 10px;' class='fas'>&#xf0d1; </div>
-              <p style=" margin-top: 10px;margin-left: 23px;">Miễn phí vận chuyển</p>
-            </div>
-          </div>
-          <div class=" flex flex-column" style="margin-top: 24px;">
-            <div class=" flex ">
-              <div class="font_b "> Kích cỡ</div>
-
-              <select style="background-color:#FFF ; letter-spacing: 1px;
-              border-radius: 8px;
-            ">
-                <option value="S">S Nam</option>
-                <option value="M">M Nam</option>
-                <option value="L">L Nam</option>
-                <option value="XL">XL Nam</option>
-                <option value="XXL">XXL Nam</option>
-                <option value="S">S Nữ</option>
-                <option value="M">M Nữ</option>
-                <option value="L">L Nữ</option>
-                <option value="XL">XL Nữ</option>
-                <option value="XXL">XXL Nữ</option>
-              </select>
-
-            </div>
-
-          </div>
-          <div class="flex  btn_center">
-            <div class=" ct">
-              
-              <button class="button-box" style="  font-size: 1.5rem;"> <a style="text-decoration: none;" href="giohang.html">Thêm vào giỏ hàng</a></button>
-        
           </div>
 
         </div>
+        <div class=" cart_r ">
+          <figcaption style="text-align: center; font-size: 30px; margin: 5px;"> <b>Thống kê</b></figcaption>
+          <div class="table">
+            <div class=" dowload line">
+              <div class="font-cart ">Tổng tiền</div>
+              <div class="font-cart "> 195.000VND</div>
+            </div>
+            <div class=" dowload line">
+              <div class="font-cart ">Vận chuyển</div>
+              <div class="font-cart "> 0 </div>
 
+            </div>
+            <div class=" dowload line coin-font " >
+              <div class="font-cart ">Toàn bộ</div>
+              <div class="font-cart "> 195.000VND</div>
+            </div>
 
+          </div>
+          
+          <div class="flex" style="justify-content:center ; margin: 20px;"> 
+        <a href=""  >
+            <button class="button-box" >
+              <span> Đặt hàng </span>
+            </button>
+          </a></div> 
+        </div>
+       
       </nav>
-  
     </section>
 
-    <section>
-
-      <div class="flex four"  style="font-size:1.5rem ;"> Sản phẩm tương tự</div>
-      <div class="products">
-        <nav class="balo dropdown">
-          <div class="anh">
-            <img src="img/balo.png" alt=" ">
-            <div class="free_ship">
-              <img src=" " alt="" h>
-
-            </div>
-            <div class="like">Yêu thích</div>
-          </div>
-          <div class="ct">
-            <p> Balo du lịch đi học thời trang cute đẹp</p>
-          </div>
-
-          <div class="fl">
-            <div class="price">
-              <sup>đ</sup><span>81.000</span>
-            </div>
-            <div class="selled">
-              <p>Đã bán 11,4K</p>
-            </div>
-          </div>
-
-        </nav>
-        <nav class="balo dropdown">
-          <div class="anh">
-            <img src="img/balo.png" alt="">
-            <div class="free_ship">
-              <img src="" alt="">
-            </div>
-          </div>
-          <div class="ct">
-            <p> Balo du lịch đi học thời trang cute đẹp</p>
-          </div>
-
-          <div class="fl">
-            <div class="price">
-              <sup>đ</sup><span>81.000</span>
-            </div>
-            <div class="selled">
-              <p>Đã bán 11,4K</p>
-            </div>
-          </div>
-
-        </nav>
-        <nav class="balo dropdown">
-          <div class="anh">
-            <img src="img/balo.png" alt="">
-            <div class="free_ship">
-              <img src="" alt="">
-            </div>
-          </div>
-          <div class="ct">
-            <p> Balo du lịch đi học thời trang cute đẹp</p>
-          </div>
-
-          <div class="fl">
-            <div class="price">
-              <sup>đ</sup><span>81.000</span>
-            </div>
-            <div class="selled">
-              <p>Đã bán 11,4K</p>
-            </div>
-          </div>
-
-        </nav>
-        <nav class="balo dropdown">
-          <div class="anh">
-            <img src="img/balo.png" alt="">
-            <div class="free_ship">
-              <img src=" " alt="">
-            </div>
-          </div>
-          <div class="ct">
-            <p> Balo du lịch đi học thời trang cute đẹp</p>
-          </div>
-
-          <div class="fl">
-            <div class="price">
-              <sup>đ</sup><span>81.000</span>
-            </div>
-            <div class="selled">
-              <p>Đã bán 11,4K</p>
-            </div>
-          </div>
-
-        </nav>
-        <nav class="balo dropdown">
-          <div class="anh">
-            <img src="img/balo.png" alt="">
-            <div class="free_ship">
-              <img src=" " alt="">
-            </div>
-          </div>
-          <div class="ct">
-            <p> Balo du lịch đi học thời trang cute đẹp</p>
-          </div>
-
-          <div class="fl">
-            <div class="price">
-              <sup>đ</sup><span>81.000</span>
-            </div>
-            <div class="selled">
-              <p>Đã bán 11,4K</p>
-            </div>
-          </div>
-
-        </nav>
-        <nav class="balo dropdown">
-
-          <div class="anh">
-            <img src="img/balo.png" alt="">
-            <div class="free_ship">
-              <img src=" " alt="">
-            </div>
-          </div>
-          <div class="ct">
-            <p> Balo du lịch đi học thời trang cute đẹp</p>
-          </div>
-
-          <div class="fl">
-            <div class="price">
-              <sup>đ</sup><span>81.000</span>
-            </div>
-            <div class="selled">
-              <p>Đã bán 11,4K</p>
-            </div>
-        </nav>
-
-      </div>
-      </div>
-
-
-
-    </section>
 
   </main>
 
